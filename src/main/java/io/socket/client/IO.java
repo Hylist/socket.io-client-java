@@ -1,9 +1,8 @@
 package io.socket.client;
 
-
+import io.socket.dependency.okhttp3.Call;
+import io.socket.dependency.okhttp3.WebSocket;
 import io.socket.parser.Parser;
-import okhttp3.Call;
-import okhttp3.WebSocket;
 
 import java.net.URI;
 import java.net.URISyntaxException;

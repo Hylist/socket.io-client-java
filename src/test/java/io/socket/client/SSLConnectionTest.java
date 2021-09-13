@@ -1,7 +1,7 @@
 package io.socket.client;
 
+import io.socket.dependency.okhttp3.OkHttpClient;
 import io.socket.emitter.Emitter;
-import okhttp3.OkHttpClient;
 import org.junit.After;
 import org.junit.Test;
 import org.junit.runner.RunWith;

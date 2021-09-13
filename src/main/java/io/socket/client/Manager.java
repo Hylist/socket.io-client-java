@@ -1,13 +1,13 @@
 package io.socket.client;
 
 import io.socket.backo.Backoff;
+import io.socket.dependency.okhttp3.Call;
+import io.socket.dependency.okhttp3.WebSocket;
 import io.socket.emitter.Emitter;
 import io.socket.parser.IOParser;
 import io.socket.parser.Packet;
 import io.socket.parser.Parser;
 import io.socket.thread.EventThread;
-import okhttp3.Call;
-import okhttp3.WebSocket;
 
 import java.net.URI;
 import java.util.ArrayList;
